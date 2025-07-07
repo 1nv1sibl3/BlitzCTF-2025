@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 17, "id": 18958, "date": "2025-07-06T15:09:51.027454+00:00", "user": {"id": 831, "name": "BackMoon"}, "type": "correct", "team": {"id": 461, "name": "BackMoon"}, "challenge": {"category": "Forensics", "id": 17, "name": "Blitz Traffic", "value": 100}}], "meta": {"count": 1}}

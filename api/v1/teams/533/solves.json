@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 47, "id": 5812, "date": "2025-07-05T18:35:20.444285+00:00", "user": {"id": 961, "name": "soramaru"}, "type": "correct", "team": {"id": 533, "name": "Doraneko"}, "challenge": {"category": "OSINT", "id": 47, "name": "Wildlife", "value": 159}}], "meta": {"count": 1}}

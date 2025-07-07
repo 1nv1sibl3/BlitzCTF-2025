@@ -1,0 +1,1020 @@
+int x = 7;
+
+/*    for '.' 
+
+digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+
+	for '-'
+    
+ digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+   
+*/
+
+String z;
+char c;
+
+void setup()
+{
+    pinMode(x, OUTPUT);
+    Serial.begin(9600);
+    Serial.println("Enter the text: ");
+}
+
+void loop()
+{
+    while (Serial.available() == 0)
+    {
+    }
+    
+    z = Serial.readString();
+    Serial.println("Processing in 10 seconds...");
+    delay(10000);  // Delay after input is received
+    
+    for(int i = 0; i < z.length(); i++)
+  {
+    c = tolower(z[i]);
+    Serial.println(c);
+  
+  
+  switch(c)
+  {
+    
+      case 'a':				//.-
+     
+    digitalWrite(x,HIGH);
+   delay(500);  
+    digitalWrite(x,LOW);
+   delay(400);
+    
+    
+      digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+   
+    delay(500);
+    break;
+    
+    case 'b':			//-...
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(500);  
+    digitalWrite(x,LOW);
+   delay(400);
+  
+    digitalWrite(x,HIGH);
+   delay(500);  
+    digitalWrite(x,LOW);
+   delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(500);  
+    digitalWrite(x,LOW);
+   delay(400);
+    
+	delay (500);
+    
+    break;
+    
+    case 'c':		//-.-.
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(500);  
+    digitalWrite(x,LOW);
+   delay(400);
+    
+     digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(500);  
+    digitalWrite(x,LOW);
+   delay(400);
+    
+    delay(500);
+    
+    break;
+    
+    case'd':		//-..
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(500);  
+    digitalWrite(x,LOW);
+   delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(500);  
+    digitalWrite(x,LOW);
+   delay(400);
+    
+    delay(500);
+    
+    break;
+    
+    case 'e':			//.
+    
+    digitalWrite(x,HIGH);
+   delay(500);  
+    digitalWrite(x,LOW);
+   delay(400);
+    
+    delay(500);
+    
+    break;
+    
+    case 'f':		//..-.
+    
+    digitalWrite(x,HIGH);
+   delay(500);  
+    digitalWrite(x,LOW);
+   delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(500);  
+    digitalWrite(x,LOW);
+   delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(500);  
+    digitalWrite(x,LOW);
+   delay(400);
+    
+    delay(500);
+    
+    break;
+    
+    case 'g': 		//--.
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+     digitalWrite(x,HIGH);
+   delay(500);  
+    digitalWrite(x,LOW);
+   delay(400);
+    
+    delay(500);
+    
+    break;
+    
+    case 'h':		//....
+    
+    digitalWrite(x,HIGH);
+   delay(500);  
+    digitalWrite(x,LOW);
+   delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(500);  
+    digitalWrite(x,LOW);
+   delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(500);  
+    digitalWrite(x,LOW);
+   delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(500);  
+    digitalWrite(x,LOW);
+   delay(400);
+    
+    delay(500);
+    
+    break;
+    
+    case 'i' :			//..
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+     digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+   
+    delay (500);
+    
+    break;
+    
+    case'j':		//.---
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    delay(500);
+          
+    break;
+    
+    case 'k':		//-.-
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    delay(500);
+    
+    break;
+    
+    case 'l':		//.-..
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    delay(500);
+    
+    break;
+    
+    case'm':		//--
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    delay(500);
+    
+    break;
+    
+    case 'n':		//-.
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    delay(500);
+    
+    break;
+    
+    case 'o':		//---
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    delay(500);
+    
+    break;
+    
+    case 'p' :		//.--.
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    delay(500);
+    
+    break;
+    
+    case 'q':		//--.-
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    delay(500);
+    
+    break;
+    
+    case 'r':		//.-.
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    delay(500);
+    
+    break;
+    
+    case 's':		//...
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    delay(500);
+    
+    break;
+    
+    case 't':		//-
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    delay(500);
+    
+    break;
+    
+    case 'u':		//..-
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    delay(500);
+    
+    break;
+    
+    case 'v':		//...-
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    delay(500);
+    
+    break;
+    
+    case 'w':		//.--
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    delay(500);
+    
+    break;
+    
+    case 'x':		//-..-
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    delay(500);
+    
+    break;
+    
+    case 'y':		//-.--
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    delay(500);
+    
+    break;
+    
+    case 'z':		//--..
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    delay(500);
+    
+    break;
+    
+    case '1':		//.----
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+     delay(500);
+    
+    break;
+    
+    
+    case '2':		//..---
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    delay(500);
+    
+    break;
+    
+    case '3':		//...--
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    delay(500);
+    
+    break;
+    
+    case '4':		//....-
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    delay(500);
+    
+    break;
+    
+    case '5':		//.....
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    delay(500);
+    
+    break;
+    
+    case '6':		//-....
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    delay(500);
+    
+    break;
+    
+    case '7':		//--...
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    delay(500);
+    
+    break;
+    
+    case '8':		//---..
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    delay(500);
+    
+    break;
+    
+    case '9':		//----.
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    delay(500);
+    
+    break;
+    
+    case '0':		//-----
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    delay(500);
+    
+    break;
+    
+    case '_':		//..--.-
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    delay(500);
+    
+    break;
+    
+    case '(':		//-.--.
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    delay(500);
+    
+    break;
+    
+    case ')':		//-.--.-
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    digitalWrite(x,HIGH);
+    delay(500);
+    digitalWrite(x,LOW);
+    delay(400);
+    
+    digitalWrite(x,HIGH);
+   delay(700);
+    digitalWrite(x,LOW);
+   delay(900);
+    
+    delay(500);
+    
+    break;
+    
+    default:
+    
+    break;
+    
+    
+  }
+  }
+}

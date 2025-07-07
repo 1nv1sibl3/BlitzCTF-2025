@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 64, "id": 23347, "date": "2025-07-06T22:27:59.728295+00:00", "user": {"id": 1481, "name": "scouser"}, "type": "correct", "team": {"id": 875, "name": "momento"}, "challenge": {"category": "Web", "id": 64, "name": "Middle of nowhere", "value": 50}}], "meta": {"count": 1}}

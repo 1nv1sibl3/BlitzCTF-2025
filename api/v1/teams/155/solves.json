@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 55, "id": 3993, "date": "2025-07-05T17:03:09.262819+00:00", "user": {"id": 254, "name": "Mrunal Shah"}, "type": "correct", "team": {"id": 155, "name": "No Place Like 127.0.0.1"}, "challenge": {"category": "Hardware", "id": 55, "name": "Redstone Logic 1", "value": 50}}], "meta": {"count": 1}}

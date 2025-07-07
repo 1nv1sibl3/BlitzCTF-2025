@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 8, "id": 10584, "date": "2025-07-06T06:06:50.374441+00:00", "user": {"id": 1226, "name": "nahibataunga"}, "type": "correct", "team": {"id": 714, "name": "nahibataunga"}, "challenge": {"category": "Pwn", "id": 8, "name": "Printf - Revenge", "value": 495}}], "meta": {"count": 1}}

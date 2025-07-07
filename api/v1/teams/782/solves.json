@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 78, "id": 17635, "date": "2025-07-06T13:33:27.561545+00:00", "user": {"id": 1345, "name": "Hazy"}, "type": "correct", "team": {"id": 782, "name": "SoloBox"}, "challenge": {"category": "Pwn", "id": 78, "name": "SafeNote", "value": 498}}], "meta": {"count": 1}}

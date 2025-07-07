@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 52, "id": 10478, "date": "2025-07-06T06:03:03.484253+00:00", "user": {"id": 835, "name": "flaghunter"}, "type": "correct", "team": {"id": 462, "name": "flaghunter"}, "challenge": {"category": "OSINT", "id": 52, "name": "The Lost Dog", "value": 375}}], "meta": {"count": 1}}

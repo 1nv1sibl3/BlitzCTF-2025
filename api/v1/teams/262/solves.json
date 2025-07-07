@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 34, "id": 20870, "date": "2025-07-06T17:23:48.881604+00:00", "user": {"id": 463, "name": "wongyos"}, "type": "correct", "team": {"id": 262, "name": "RPCA Cyber Club"}, "challenge": {"category": "Misc", "id": 34, "name": "Lazy Flag", "value": 50}}], "meta": {"count": 1}}

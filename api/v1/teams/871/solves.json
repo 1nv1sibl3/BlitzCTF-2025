@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 22, "id": 22875, "date": "2025-07-06T21:24:21.595978+00:00", "user": {"id": 746, "name": "Cubano"}, "type": "correct", "team": {"id": 871, "name": "cubano"}, "challenge": {"category": "Reversing", "id": 22, "name": "PyPain", "value": 271}}], "meta": {"count": 1}}

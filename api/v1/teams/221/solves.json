@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 9, "id": 12445, "date": "2025-07-06T08:06:16.196505+00:00", "user": {"id": 380, "name": "ap425q"}, "type": "correct", "team": {"id": 221, "name": "Elgato"}, "challenge": {"category": "Pwn", "id": 9, "name": "Recursion", "value": 493}}], "meta": {"count": 1}}

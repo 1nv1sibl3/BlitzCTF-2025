@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 46, "id": 20787, "date": "2025-07-06T17:18:18.019986+00:00", "user": {"id": 1392, "name": "./bash"}, "type": "correct", "team": {"id": 835, "name": "./bash"}, "challenge": {"category": "OSINT", "id": 46, "name": "Hacked by Kids Part 1", "value": 50}}], "meta": {"count": 1}}

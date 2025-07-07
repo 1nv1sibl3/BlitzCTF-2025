@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 45, "id": 8767, "date": "2025-07-06T01:14:25.649405+00:00", "user": {"id": 1163, "name": "rankling"}, "type": "correct", "team": {"id": 665, "name": "RCTF"}, "challenge": {"category": "Crypto", "id": 45, "name": "Lightning Strike", "value": 100}}], "meta": {"count": 1}}

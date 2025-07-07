@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 52, "id": 12160, "date": "2025-07-06T07:46:36.884553+00:00", "user": {"id": 657, "name": "Athex"}, "type": "correct", "team": {"id": 371, "name": "APEX LEGENDS"}, "challenge": {"category": "OSINT", "id": 52, "name": "The Lost Dog", "value": 375}}], "meta": {"count": 1}}

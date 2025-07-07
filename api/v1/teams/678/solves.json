@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 20, "id": 8944, "date": "2025-07-06T01:57:14.655503+00:00", "user": {"id": 1179, "name": "Rnol-D2"}, "type": "correct", "team": {"id": 678, "name": "libsea.so"}, "challenge": {"category": "Forensics", "id": 20, "name": "The Warrior's Legacy #1", "value": 50}}], "meta": {"count": 1}}

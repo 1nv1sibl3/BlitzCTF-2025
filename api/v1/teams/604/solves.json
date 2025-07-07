@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 55, "id": 5878, "date": "2025-07-05T18:38:35.864892+00:00", "user": {"id": 1081, "name": "CyberFlux"}, "type": "correct", "team": {"id": 604, "name": "HackNova"}, "challenge": {"category": "Hardware", "id": 55, "name": "Redstone Logic 1", "value": 50}}], "meta": {"count": 1}}

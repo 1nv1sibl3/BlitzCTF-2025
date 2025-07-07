@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 41, "id": 10100, "date": "2025-07-06T05:24:58.423407+00:00", "user": {"id": 1233, "name": "0xd3adb33f"}, "type": "correct", "team": {"id": 719, "name": "h1r@n0_n1nj45"}, "challenge": {"category": "Crypto", "id": 41, "name": "Broken encoding or what?", "value": 50}}], "meta": {"count": 1}}

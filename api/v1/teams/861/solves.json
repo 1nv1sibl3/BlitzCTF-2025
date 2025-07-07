@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 45, "id": 21983, "date": "2025-07-06T19:16:20.137121+00:00", "user": {"id": 1461, "name": "gfrancis"}, "type": "correct", "team": {"id": 861, "name": "DSAhackers"}, "challenge": {"category": "Crypto", "id": 45, "name": "Lightning Strike", "value": 100}}], "meta": {"count": 1}}

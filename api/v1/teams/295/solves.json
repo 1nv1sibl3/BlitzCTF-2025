@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 70, "id": 7716, "date": "2025-07-05T21:44:46.816360+00:00", "user": {"id": 520, "name": "TAS_devlin"}, "type": "correct", "team": {"id": 295, "name": "TAS_Alone"}, "challenge": {"category": "Web", "id": 70, "name": "Unstoppable force meets immovable object", "value": 50}}], "meta": {"count": 1}}

@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 6, "id": 9940, "date": "2025-07-06T05:01:08.002127+00:00", "user": {"id": 815, "name": "123123"}, "type": "correct", "team": {"id": 453, "name": "dasf"}, "challenge": {"category": "Pwn", "id": 6, "name": "Entropy Mixer", "value": 489}}], "meta": {"count": 1}}

@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 34, "id": 4038, "date": "2025-07-05T17:05:23.850570+00:00", "user": {"id": 284, "name": "krypton"}, "type": "correct", "team": {"id": 282, "name": "Krypton"}, "challenge": {"category": "Misc", "id": 34, "name": "Lazy Flag", "value": 50}}], "meta": {"count": 1}}

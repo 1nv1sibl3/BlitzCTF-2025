@@ -1,0 +1,1 @@
+{"success": true, "data": [{"challenge_id": 70, "id": 6209, "date": "2025-07-05T19:01:25.696393+00:00", "user": {"id": 1075, "name": "spider"}, "type": "correct", "team": {"id": 600, "name": "0xSpider"}, "challenge": {"category": "Web", "id": 70, "name": "Unstoppable force meets immovable object", "value": 50}}], "meta": {"count": 1}}
